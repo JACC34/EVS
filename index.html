@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVS</title>
+    <meta name="description"
+        content="EVS proporciona métodos simples y precisos de evaluación visual del suelo en tu bolsillo. Captura datos, rastrea historial y localiza evaluaciones de campo.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo-nav">
+                    <span class="logo-text">EVS</span>
+                </div>
+
+                <button class="hamburger-btn" id="hamburgerBtn" aria-label="Abrir menú">
+                    <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+
+                <div class="nav-links" id="navLinks">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="faq.html" class="nav-link">¿Tienes dudas?</a>
+
+                    <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                        <svg class="icon-moon" viewBox="0 0 24 24" width="22" height="22" stroke="currentColor"
+                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg class="icon-sun" viewBox="0 0 24 24" width="22" height="22" stroke="currentColor"
+                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                            style="display: none;">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Logo minimalista -->
+                <div class="hero-logo">
+                    <div class="logo-container">
+                        <div class="logo-square">Logo</div>
+
+                    </div>
+                </div>
+
+                <h1 class="hero-title">Analiza la Salud del Suelo Instantáneamente, Directo desde el Campo</h1>
+                <p class="hero-subtitle">EVS proporciona un método simple y preciso de evaluación visual del suelo en tu
+                    bolsillo. Captura datos, rastrea historial y localiza evaluaciones de campo.</p>
+                <a href="#descarga" class="cta-button primary">Descargar para Android</a>
+            </div>
+
+            <!-- Elementos decorativos del fondo -->
+            <div class="hero-background">
+                <div class="bg-shape shape-1"></div>
+                <div class="bg-shape shape-2"></div>
+                <div class="bg-shape shape-3"></div>
+                <div class="bg-shape shape-4"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Features Section -->
+    <section class="features" id="caracteristicas">
+        <div class="container">
+            <h2 class="section-title">Características Principales</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-assessment"></div>
+                    </div>
+                    <h3>Formularios de Evaluación Rápida</h3>
+                    <p>Listas de verificación optimizadas para entrada rápida de datos de campo</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-guide"></div>
+                    </div>
+                    <h3>Biblioteca de Indicadores Visuales</h3>
+                    <p>Guías paso a paso para estructura, color, porosidad y compactación</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-mapping"></div>
+                    </div>
+                    <h3>Mapeo GPS e Historial de Campo</h3>
+                    <p>Etiqueta pruebas con ubicación exacta y revisa el rendimiento histórico</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- App Showcase Gallery -->
+    <section class="showcase">
+        <div class="container">
+            <h2 class="section-title">Capturas de la Aplicación</h2>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-slide active">
+                            <div class="phone-mockup">
+                                <div class="screen">
+                                    <div class="app-header">Panel de Control EVS</div>
+                                    <div class="app-content">
+                                        <div class="dashboard-item"></div>
+                                        <div class="dashboard-item"></div>
+                                        <div class="dashboard-item"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="phone-mockup">
+                                <div class="screen">
+                                    <div class="app-header">Guía Visual</div>
+                                    <div class="app-content">
+                                        <div class="guide-grid">
+                                            <div class="guide-item"></div>
+                                            <div class="guide-item"></div>
+                                            <div class="guide-item"></div>
+                                            <div class="guide-item"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="phone-mockup">
+                                <div class="screen">
+                                    <div class="app-header">Mapeo de Campo</div>
+                                    <div class="app-content">
+                                        <div class="map-view">
+                                            <div class="map-pin"></div>
+                                            <div class="map-pin"></div>
+                                            <div class="map-pin"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="value-proposition">
+        <div class="container">
+            <div class="value-content">
+                <h2>Datos Más Profundos Llevan a Decisiones Más Inteligentes</h2>
+                <p>EVS te ayuda a gestionar la degradación del suelo, optimizar insumos y aumentar el rendimiento
+                    sostenible de cultivos a través de evaluación visual precisa y seguimiento histórico.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="descarga">
+        <div class="container">
+            <div class="download-content">
+                <h2>¿Listo para Potenciar tus Campos?</h2>
+                <p>Comienza a tomar decisiones de manejo de suelo basadas en datos hoy</p>
+                <a href="#" class="cta-button primary large">Descargar APK (Android)</a>
+                <p class="disclaimer">* Requiere Android 6.0 o superior. Es posible que necesites habilitar "Instalar
+                    desde fuentes desconocidas" en la configuración de tu dispositivo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="year-page"> </span> EVS | Todos los derechos
+                    reservados.</p>
+                <p>Contacto: maria-laquieromucho@evs</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
